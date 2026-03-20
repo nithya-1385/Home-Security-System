@@ -145,7 +145,6 @@ python serial_comm.py
 
 ---
 
-## 👨‍💻 Authors
 ## Authors
 1. Nishita Singh : [ohnonyx](https://github.com/ohnonyx)
 2. Nithya Anantharaman : [nithya049](http://github.com/nithya049)
