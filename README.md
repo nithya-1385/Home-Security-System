@@ -1,22 +1,22 @@
-# 🏠 Home Security System using Arduino & OpenCV
+# Home Security System using Arduino & OpenCV
 
 An intelligent home security system that integrates Arduino sensors with real-time face recognition using OpenCV. The system detects motion, identifies individuals, and automatically controls access while triggering alerts for intruders.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔍 Motion detection using PIR sensor
 - 🎥 Real-time face recognition using OpenCV (LBPH)
 - 💡 Automatic lighting using LDR sensor for low-light conditions
 - 🔐 Smart access control (unlock for known faces)
-- 🚨 Intruder alert system using buzzer
+- 🚨 Intruder alert system using Piezoelectric buzzer
 - 🔴🟢 LED indicators for system status
 - 🔗 Serial communication between Python and Arduino
 
 ---
 
-## 🧠 System Workflow
+## System Workflow
 
 1. PIR sensor detects motion near the door
 2. Arduino sends "MOTION" signal to Python
@@ -28,7 +28,7 @@ An intelligent home security system that integrates Arduino sensors with real-ti
 
 ---
 
-## 🛠️ Hardware Components
+## Hardware Components
 
 - Arduino UNO
 - PIR Motion Sensor
@@ -41,7 +41,7 @@ An intelligent home security system that integrates Arduino sensors with real-ti
 
 ---
 
-## 💻 Software Requirements
+## Software Requirements
 
 - Python 3.x
 - OpenCV (cv2)
@@ -94,7 +94,7 @@ python serial_comm.py
 
 ---
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 ![Circuit Diagram](images/circuit_diagram.png)
 
@@ -119,7 +119,7 @@ python serial_comm.py
 
 ---
 
-## ⚙️ Key Concepts Used
+## Key Concepts Used
 
 - Computer Vision (Face Detection & Recognition)
 - IoT (Sensor-based automation)
@@ -128,7 +128,7 @@ python serial_comm.py
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure correct COM port is set in `serial_comm.py`
 - Dataset and trained files are not included in the repository
@@ -136,7 +136,7 @@ python serial_comm.py
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Add deep learning-based face recognition (CNN)
 - Mobile app integration
